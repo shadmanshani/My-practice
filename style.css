@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: white;
+}
+
+.container {
+	width: 100%;
+	background-color: blue;
+	display: flex;
+	/* color: white; */
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 0;
+}
+
+.container .logo {
+	width: 30%;
+	display: flex;
+	justify-content: center;
+}
+
+
+
+.container .nav a {
+	text-decoration: none;
+	margin-right: 5vw;
+	/* color: white; */
+}
+
+main .bg {
+	height: 110vh;
+	width: 100%;
+	background-image: url("Project Cover.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 110vh;
+	background-position: center;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+	height: 10vh;
+	width: 100%;
+}
